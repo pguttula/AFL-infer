@@ -1,0 +1,25 @@
+start_time     : 1529079384
+last_update    : 1529246094
+fuzzer_pid     : 24577
+cycles_done    : 471
+execs_done     : 18234207
+execs_per_sec  : 90.24
+paths_total    : 4
+paths_favored  : 2
+paths_found    : 3
+paths_imported : 0
+max_depth      : 2
+cur_path       : 1
+pending_favs   : 0
+pending_total  : 0
+variable_paths : 0
+bitmap_cvg     : 0.27%
+unique_crashes : 0
+unique_hangs   : 4
+last_path      : 1529079384
+last_crash     : 0
+last_hang      : 1529085887
+exec_timeout   : 20
+afl_banner     : fuzzer01
+afl_version    : 1.96b
+command_line   : afl-fuzz -i test6_inp -o sync_dir -M fuzzer01 ./test6
