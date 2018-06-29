@@ -1,0 +1,25 @@
+start_time     : 1528242399
+last_update    : 1528557526
+fuzzer_pid     : 21332
+cycles_done    : 86
+execs_done     : 4511042
+execs_per_sec  : 13.01
+paths_total    : 77
+paths_favored  : 36
+paths_found    : 27
+paths_imported : 49
+max_depth      : 3
+cur_path       : 13
+pending_favs   : 0
+pending_total  : 0
+variable_paths : 0
+bitmap_cvg     : 2.68%
+unique_crashes : 11
+unique_hangs   : 20
+last_path      : 1528464407
+last_crash     : 1528250938
+last_hang      : 1528516566
+exec_timeout   : 180
+afl_banner     : fuzzer03
+afl_version    : 1.96b
+command_line   : afl-fuzz -i htest -o sync_dir -S fuzzer03 ./honeyd -d -f config.sample
